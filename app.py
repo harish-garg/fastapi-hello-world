@@ -2,7 +2,7 @@ from typing import Optional
 
 from fastapi import FastAPI
 
-app = FastAPI(__name__)
+app = FastAPI()
 
 @app.get("/")
 def read_root():
