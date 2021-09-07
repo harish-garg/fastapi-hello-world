@@ -10,4 +10,4 @@ Follow the guide at https://render.com/docs/deploy-flask.
 
 Make sure to change the start command in settings tab to this
 
-`gunicorn -k uvicorn.workers.UvicornWorker main:app
+`gunicorn -k uvicorn.workers.UvicornWorker app:app
